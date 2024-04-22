@@ -10,8 +10,9 @@
     
 </head>
 <body class="select-none m-0 p-0">
+    <!-- WHOLE SCREEN -->
     <div class=" flex">
-
+        <!-- LEFTSIDE MENUBAR -->
         <div class="sm:w-[27rem] w-[17rem] sm:z-0 z-10 sm:h-screen h-[47.2rem] shadow-[3px_0px_4px_0px_rgba(0,0,0,0.10)] sm:shadow-none absolute sm:relative bg-[#F9FAFC] border border-black/20 flex flex-col place-content-between transition-opacity duration-1000" id="leftbar">
 
                 
@@ -68,9 +69,9 @@
                 </div>
             </div>
 
-        
-
         </div>
+
+            <!-- MAXIMIZING AND MINIMIZING NAVIGATORS -->
         <div class="flex items-center absolute bottom-[50%] sm:left-[22.5%] left-[78%]   ">
             <div class=" flex items-center justify-center " id="minSlide">
                 <div class="flex items-center justify-center w-[4.5px] h-[35px] bg-black/50 rounded-md active:scale-[.90] transition-all ease-in-out cursor-pointer"></div>
@@ -79,6 +80,7 @@
         </div>
 
 
+        <!-- RIGHTSIDE SCREEN OF CHATBOT AI HOMEPAGE -->
         <div class="w-full  ">
             <div class="h-14  border border-x-0 border-black/20 "></div>
             <div class="sm:h-screen flex flex-col justify-between bg-[#F1F1F1] sm:pt-20 pt-10">
@@ -86,6 +88,8 @@
                 <p class="font-semibold text-2xl sm:text-5xl ">Welcome to AI CHATBOT</p>
                 <p class="text-black/50 sm:text-base text-sm text-center">Get started by giving a task and the chatbot can do the rest. Not sure where to start?</p>
 
+
+                <!-- SAMPLE PROMPTS IN GRID -->
                 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-8">
                     <div class="flex items-center sm:max-w-[400px] max-w-[300px] sm:px-5 sm:py-5 px-3 py-3 space-x-4 bg-white shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] border border-black/20 rounded-lg cursor-pointer active:scale-[.98] transition-all ease-in-out">
                         <div class="px-3 py-2 rounded-md shadow-[0_2px_4px_0px_rgba(0,0,0,0.25)] bg-[#DEAD57]/30">
@@ -142,6 +146,8 @@
                 
             </div>
 
+
+            <!-- PROMPTING COMPONENT WITH INPUTBOX -->
             <div class="backdrop-blur-none">
                 <div class="w-full fixed flex flex-col items-center justify-start bg-[#F1F1F1] bottom-0  ">
 
